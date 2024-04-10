@@ -86,12 +86,12 @@ async function connectPup() {
         console.log({ "status": "new tab opened on browser" })
 
         // Fill in login credentials
-        await page.type('[name="session_key"]', 'anthonyfaruna1@gmail.com'); // Email or phone input field
-        await page.type('[name="session_password"]', 'Tony@0045'); // Password input field
-        await page.click('.btn__primary--large');
+        // await page.type('[name="session_key"]', 'anthonyfaruna1@gmail.com'); // Email or phone input field
+        // await page.type('[name="session_password"]', 'Tony@0045'); // Password input field
+        // await page.click('.btn__primary--large');
 
         // Wait for navigation to the home page or any other page indicating successful login
-        await page.waitForNavigation();
+        // await page.waitForNavigation();
 
 
         // await browser.close();
